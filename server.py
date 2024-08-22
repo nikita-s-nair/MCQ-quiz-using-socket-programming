@@ -21,7 +21,7 @@ server_socket.listen(2)  # Two players will connect
 #listen is like a queue where all the requests will go on getting added and when the queue is full then we give message to the client
 
 
-print('Waiting for players to connect...')
+print('Waiting for 2 players to connect...')
 
 # these are the quiz questions
 questions = [
